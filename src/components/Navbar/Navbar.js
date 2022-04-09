@@ -6,6 +6,7 @@ import decode from "jwt-decode";
 
 import memoriesLogo from "../../images/memoriesLogo.png";
 import memoriesText from "../../images/memoriesText.png";
+import wanderersLogo from "../../images/wanderersLogo.png";
 import * as actionType from "../../constants/actionTypes";
 import useStyles from "./styles";
 
@@ -42,7 +43,7 @@ const Navbar = () => {
         <img
           component={Link}
           to="/"
-          src={memoriesText}
+          src={wanderersLogo}
           alt="icon"
           height="45px"
         />
