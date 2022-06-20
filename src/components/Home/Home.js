@@ -44,7 +44,7 @@ const Home = () => {
       history.push("/");
     }
   };
-
+  //if pressed enter
   const handleKeyPress = (e) => {
     if (e.keyCode === 13) {
       searchPost();

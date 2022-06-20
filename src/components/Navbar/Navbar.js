@@ -47,12 +47,6 @@ const Navbar = () => {
           alt="icon"
           height="45px"
         />
-        <img
-          className={classes.image}
-          src={memoriesLogo}
-          alt="icon"
-          height="40px"
-        />
       </Link>
       <Toolbar className={classes.toolbar}>
         {user?.result ? (
