@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 
+/steps.md
 # testing
 /coverage
 
@@ -21,3 +22,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Local Netlify folder
+.netlify
+
+
+/steps.md
