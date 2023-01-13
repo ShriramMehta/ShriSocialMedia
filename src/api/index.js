@@ -6,7 +6,8 @@ import axios from "axios";
 // });
 
 const API = axios.create({
-  baseURL: "https://shri-wanderers.herokuapp.com",
+  // baseURL: "https://shri-wanderers.herokuapp.com",
+  baseURL: "https://social-media-production-49e2.up.railway.app/",
 });
 //for middleware
 API.interceptors.request.use((req) => {
